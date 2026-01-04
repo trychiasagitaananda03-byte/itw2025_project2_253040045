@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+nav {
+  background-color: black;
+}
+nav img {
+  width: 80px;
+  height: 4rem;
+}
+.navbar-toggler {
+  color: white;
+}
+.navv a {
+  color: white;
+}
+.navv ul li a {
+  color: white;
+}
+.navv ul li a:hover {
+  color: #8b0000;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+.home p {
+  margin-top: 130px;
+  font-weight: 1000;
+}
+.cortis {
+  width: 100%;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+.container-satu {
+  width: 100%;
+  padding: 0%;
+}
+.foto {
+  width: 50%;
+}
+.about {
+    width: 50%;
+}
+.about h2 {
+    letter-spacing: 2px;
+}
+section {
+    padding-top: 2rem;
+}
+.akses img {
+    width: 10%;
+    transition: all .8s;
+}
+.akses img:hover {
+    transform: scale(1.2);
+}
+.member h2 {
+    letter-spacing: 2px;
+}
+.kartu {
+    transition: all 1s;
+}
+.kartu:hover {
+    transform: scale(1.1);
+}
+.owl-carousel .item img {
+  width: 100%;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .kartu:hover {
+    transform: none;
+  }
+}
+  
+
